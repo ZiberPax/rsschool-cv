@@ -1,14 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>The HTML5 Herald</title>
+  <title>Alexey Meshin CV</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <script src="js/scripts.js"></script>
-</body>
+
+    <div class="container">
+      <nav class="navigation">
+        <a class="nav-item" href="#about">Profile</a>
+        <a class="nav-item" href="#experience">Experience</a>
+        <a class="nav-item" href="#code_example">Code example</a>
+      </nav>
+
+
+
+      <div class="left_Side">
+        <div class="profileText">
+          <div class="imgBox">
+            <img src="Photo.jpg" alt="My_Photo">
+          </div>
+          <h1>Alexey Meshin<br><span>Web Developer</span></h1>
+        </div>
+
+        <div class="contactInfo">
+            <h3 class="title">Contact Info</h3>
+          <ul>
+            <li>
+              <span class="icon"><i class="fa-brands fa-discord"></i></span>
+              <span class="text">AlexeyM#7429</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa-solid fa-envelope"></i></span>
+              <span class="text">323p@mail.ru</span>
+            </li>
+            <li>
+              <span class="icon"><i class="fa-solid fa-phone"></i></span>
+              <span class="text">+79954096925</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo education">
+            <h3 class="title">Education</h3>
+          <ul>
+            <li>
+              <h5>2017 - 2022</h5>
+              <h4>Design engineering, production and operation of rockets and aerospace
+                complexes</h4>
+              <h4>Volgograd State Technical University</h4>
+            </li>
+            <li>
+              <h5>2022</h5>
+              <h4>RS School JS/FE Pre-School 2022Q2 (in progress)</h4>
+            </li>
+          </ul>
+        </div>
+
+        <div class="contactInfo skills">
+            <h3 class="title">Skills</h3>
+          <ul>
+            <li>Blender</li>
+            <li>Movavi</li>
+            <li>Microsoft Word, Exel, PowerPoint</li>
+            <li>Construct 2</li>
+            <li>Html+Css</li>
+            <li>Tilda</li>
+            <li>Figma</li>
+            <li>Python</li>
+          </ul>
+        </div>
+
+
+        <div class="contactInfo languages">
+            <h3 class="title">Languages</h3>
+          <ul>
+            <li>
+              <span class="text">English</span>
+              <div class="percent">
+                <div style="width: 45%"></div>
+              </div>
+            </li>
+            <li>
+              <span class="text">Russian</span>
+              <div class="percent">
+                <div style="width: 90%"></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+
+
+
+      <div class="right_Side">
+        <div class="about" id="about">
+          <h2 class="title2">Profile</h2>
+          <p>Hi, i Alexey from legendary city Volgograd, witch most of you knows as Stalingrad. Almost finished
+            technical
+            university and realise that i dont want to be enginer all my life. All the time that i know myself was
+            connected with IT. I tryed myself in many languages, how example c++, c#, Python, Java. But nither of them
+            cant made me happy. Frontend realy enjoy me, so i decide made another try.<br><br> Wish me luck! </p>
+        </div>
+
+        <div class="about">
+          <h2 class="title2" id="experience">Experience</h2>
+
+          <div class="box">
+            <div class="year_company">
+              <h5> 2019 - 2020</h5>
+              <h5>Skysmart</h5>
+            </div>
+            <div class="text">
+              <h4>Methodologist of introductory math lessons</h4>
+              <p>Introduced new students for school and analyse their mathematical level.</p>
+            </div>
+          </div>
+
+          <div class="box">
+            <div class="year_company">
+              <h5> 2020 - 2021</h5>
+              <h5>Kodium</h5>
+            </div>
+            <div class="text">
+              <h4>Methodologist of introductory programming lessons</h4>
+              <p>Introduced new students for school and build with them first game in Scratch.</p>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <div class="year_company">
+              <h5> 2017 - Present</h5>
+              <h5>Freelance</h5>
+            </div>
+            <div class="text">
+              <h4>Math teacher</h4>
+              <p>Helping students with mathematic.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="about">
+          <h2 class="title2" id="code_example">Code example</h2>
+          <div class="code-example">
+            <pre>
+              <code>
+                def solution(number):
+                k = 0 
+                sum = 0 
+                while k &lt; number: 
+                  if k % 5 and  k % 3 == 0: 
+                      sum  += k
+                    elif k % 5 == 0: 
+                      sum  += k
+                  elif k % 3 == 0: 
+                        sum  += k
+                    k += 1 
+                return sum
+                print (solution(16))
+              </code>
+            </pre>
+          </div>
+        </div>
+
+        <footer>
+          <div class="footer_content">
+            <a href="https://rs.school/js-stage0/">
+              <img src="rs.svg" alt="rs school logo">
+            </a>
+            
+            <a href="https://github.com/ZiberPax" class="main-text">GitHub</a>
+    
+            <time class="main-text">2022</time>
+
+
+          </div>
+        </footer>
+        
+      </div>
+
+
+    </div>
+
+
+
 </html>
