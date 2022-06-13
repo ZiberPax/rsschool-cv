@@ -1,0 +1,269 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+   font-size: 14px;
+   background: #FBE8A6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;
+}
+
+.container .navigation {
+   position: absolute;
+   display: flex;
+   width: 100%;
+   z-index: 2;
+}
+
+.container .navigation a {
+   position: relative;
+   padding: 3px;
+   text-decoration: none;
+   color: #fff;
+   font-weight: 600;
+   text-shadow: 4px 2px 2px #303C6C;
+}
+
+
+
+
+main {
+   font-weight: 30px;
+}
+
+.container {
+   position: relative;
+   width: 100%;
+   max-width: 1000px;
+   min-height: 1000px;
+   background: #fff;
+   margin: 50px;
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+.container .left_Side {
+   position: relative;
+   background: #F4976C;
+   padding: 40px;
+}
+
+.profileText {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-bottom: 20px;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.2)
+}
+
+
+.profileText .imgBox {
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+   overflow: hidden;
+}
+
+.profileText .imgBox img {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.profileText h1 {
+   color: #fff;
+   font-size: 1.6em;
+   margin-top: 20px;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.profileText h1 span {
+   font-size: 1em;
+   font-weight: 300;
+}
+
+.contactInfo {
+   padding-top: 40px;
+}
+
+.title {
+   color: #fff;
+   text-transform: uppercase;
+   font-weight: 600;
+   letter-spacing: 1px;
+   margin-bottom: 20px;
+
+}
+
+
+.contactInfo ul {
+   position: relative;
+}
+
+.contactInfo ul li {
+   position: relative;
+   list-style: none;
+   margin: 10px 0;
+   cursor: pointer;
+}
+
+.contactInfo ul li .icon {
+   display: inline-block;
+   width: 30px;
+   font-size: 18px;
+   color: #303C6C;
+}
+
+.contactInfo ul li span {
+   color: #fff;
+   font-weight: 300;
+}
+
+.contactInfo.education li {
+   margin-bottom: 15px;
+}
+
+.contactInfo.education h5 {
+   color: #303C6C;
+   font-weight: 500;
+}
+
+.contactInfo.education h4:nth-child(2) {
+   color: #fff;
+   font-weight: 500;
+}
+
+.contactInfo.education h4 {
+   font-weight: 300;
+   color: #fff;
+}
+
+.contactInfo.skills ul {
+   position: relative;
+}
+
+.contactInfo.skills ul li {
+   position: relative;
+   list-style: none;
+   margin: 10px 0;
+   cursor: pointer;
+   color: #fff;
+   font-weight: 500;
+}
+
+.contactInfo.languages .percent {
+   position: relative;
+   width: 100%;
+   height: 6px;
+   background: #12225e;
+   display: block;
+   margin-top: 5px;
+}
+
+.contactInfo.languages .percent div {
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   background: #f15832;
+}
+
+.contactInfo.languages ul {
+   position: relative;
+}
+
+.contactInfo.languages ul li {
+   position: relative;
+   list-style: none;
+   margin: 10px 0;
+   cursor: pointer;
+   color: #fff;
+   font-weight: 500;
+}
+
+.container .right_Side {
+   position: relative;
+   background: #fff;
+   padding: 40px;
+}
+
+.about {
+   margin-bottom: 50px;
+}
+
+.about:last-child {
+   margin-bottom: 0;
+}
+
+.title2 {
+   color: #303C6C;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin-bottom: 10px;
+}
+
+p {
+   color: #333;
+}
+
+.about .box {
+   display: flex;
+   flex-direction: row;
+   margin: 20px 0;
+}
+
+.about .box .year_company {
+   min-width: 150px;
+}
+
+.about .box .year_company h5 {
+   text-transform: uppercase;
+   color: #848c90;
+   font-weight: 600;
+}
+
+.about .box .text h4 {
+   text-transform: uppercase;
+   color: #303C6C;
+}
+
+.about .code-example {
+   background: #fbe8a62a;
+}
+
+footer .footer_content {
+   margin-top: 300px;
+   bottom: 0;
+}
+
+footer .footer_content a,
+time {
+   padding-left: 100px;
+   text-decoration: none;
+   color: #303C6C;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+
+}
+
+footer .footer_content img {
+   max-height: 20px;
+   height: 15px;
+}
