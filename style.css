@@ -253,6 +253,12 @@ p {
    background: #fbe8a62a;
 }
 
+.about .my_project a
+{
+   text-decoration: none;
+   color: #000;
+}
+
 footer .footer_content {
    margin-top: 300px;
    bottom: 0;
