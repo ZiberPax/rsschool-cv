@@ -41,6 +41,11 @@ main {
    font-weight: 30px;
 }
 
+.navigation ul li 
+{
+   list-style: none;
+   float: left;
+}
 .container {
    position: relative;
    width: 100%;
