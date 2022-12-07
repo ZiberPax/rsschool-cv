@@ -10,7 +10,7 @@
 ---
 
 ### About myself:
-Simple guy from Volgograd who's tried many languages and decides become the ***greatest*** Frontend developer. 
+Hello! Simple guy from Volgograd who's tried many languages and decides become the ***greatest*** Frontend developer. 
 
 ---
 ### Skills
