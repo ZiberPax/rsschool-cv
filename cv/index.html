@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="shortcut icon"
+      href="../icons/cv_102350.svg"
+      type="image/x-icon"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Alexey Meshin CV</title>
+  </head>
+  <body>
+    <header class="header">
+      <ul class="header_nav">
+        <li class="header_nav__li">
+          <a href="#" class="header_nav__li__link">Profile</a>
+        </li>
+        <li class="header_nav__li">
+          <a href="#" class="header_nav__li__link">Experience</a>
+        </li>
+        <li class="header_nav__li">
+          <a href="#" class="header_nav__li__link">Code example</a>
+        </li>
+        <li class="header_nav__li">
+          <a href="#" class="header_nav__li__link">My projects</a>
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <div class="about_container">
+        <div class="about_container__image-container">
+          <img
+            src="../img/Photo.jpg"
+            alt="Alexe Meshin photo"
+            class="about_container__image"
+          />
+        </div>
+        <div class="about_container__title-container">
+          <h1 class="about_container__title-container_h1">alexey meshin</h1>
+          <h2 class="about_container__title-container_h2">
+            Frontend Developer
+          </h2>
+        </div>
+        <div class="about_container__decription">
+          <p class="about_container__decription__text1">
+            Hello, i Alexey from legendary city Volgograd, witch most of you
+            knows as Stalingrad. Almost finished technical university and
+            realise that i dont want to be enginer all my life. All the time
+            that i know myself was connected with IT. I tryed myself in many
+            languages, how example c++, c#, Python, Java. But nither of them
+            cant made me happy. Frontend development realy enjoy me, so i decide
+            made another try.
+          </p>
+          <p class="about_container__decription__text2">Wish me luck!</p>
+        </div>
+      </div>
+
+      <div class="education_container">
+        <div class="education__title">Education</div>
+        <div class="education__elem">
+          <div class="education__elem__time-title">2017 - 2022</div>
+          <div class="education__elem__title">
+            <b
+              >Design engineering, production and operation of rockets and
+              aerospace complexes</b
+            >
+            <br />Volgograd State Technical University
+          </div>
+        </div>
+        <div class="education__elem">
+          <div class="education__elem__time-title">2022</div>
+          <div class="education__elem__title">
+            RS School JS/FE Pre-School 2022Q2
+          </div>
+        </div>
+        <div class="education__elem">
+          <div class="education__elem__time-title">2022-2023</div>
+          <div class="education__elem__title">
+            RS School JS / FRONT-END 2022Q3 (in progress)
+          </div>
+        </div>
+      </div>
+
+      <div class="skills_container">
+        <h2 class="skills_title">Skills</h2>
+        <ul class="skills_ul">
+          <li class="skills_elem">
+            <a
+              href="https://www.blender.org/"
+              class="skills_elem__link"
+              target="_blank"
+            >
+              <div class="skills_elem__title-container">
+                <p class="skills_elem__title">Blender</p>
+              </div>
+            </a>
+          </li>
+          <li class="skills_elem">
+            <a href="#" class="skills_elem__link" target="_blank">
+              <div class="skills_elem__title-container">
+                <p class="skills_elem__title">HTML+CSS</p>
+              </div>
+            </a>
+          </li>
+          <li class="skills_elem">
+            <a
+              href="https://discordapp.com/users/AlexeyM#7429/"
+              class="skills_elem__link"
+              target="_blank"
+            >
+              <div class="skills_elem__title-container">
+                <p class="skills_elem__title">JavaScript</p>
+              </div>
+            </a>
+          </li>
+          <li class="skills_elem">
+            <a href="https://www.blackmagicdesign.com/products/davinciresolve" class="skills_elem__link" target="_blank">
+              <div class="skills_elem__title-container">
+                <p class="skills_elem__title">DaVinci Resolve</p>
+              </div>
+            </a>
+          </li>
+          <li class="skills_elem">
+            <a
+              href="https://www.figma.com/"
+              class="skills_elem__link"
+              target="_blank"
+            >
+              <div class="skills_elem__title-container">
+                <p class="skills_elem__title">Figma</p>
+              </div>
+            </a>
+          </li>
+          <li class="skills_elem">
+            <a
+              href="https://tilda.cc/"
+              class="skills_elem__link"
+              target="_blank"
+            >
+              <div class="skills_elem__title-container">
+                <p class="skills_elem__title">Tilda</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="code-example_container">
+        <div class="code-example_title">Code Example</div>
+        <pre class="code-example_contnent">
+          def solution(number):
+                k = 0 
+                sum = 0 
+                while k < number: 
+                  if k % 5 and  k % 3 == 0: 
+                      sum  += k
+                    elif k % 5 == 0: 
+                      sum  += k
+                  elif k % 3 == 0: 
+                        sum  += k
+                    k += 1 
+                return sum
+                print (solution(16))
+        </pre>
+      </div>
+
+      <div class="projects_container">
+        <h2 class="projects_title">My Projects</h2>
+        <ul class="projects_ul">
+          <li class="projects_elem">
+            <a
+              href="https://rolling-scopes-school.github.io/ziberpax-JSFEPRESCHOOL2022Q2/travel/"
+              class="projects_elem__link"
+              target="_blank"
+            >
+              <div class="projects_elem__title-container">
+                <p class="projects_elem__title">Travel</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects_elem">
+            <a
+              href="https://rolling-scopes-school.github.io/ziberpax-JSFEPRESCHOOL2022Q2/momentum/"
+              class="projects_elem__link"
+              target="_blank"
+            >
+              <div class="projects_elem__title-container">
+                <p class="projects_elem__title">Momentum</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects_elem">
+            <a
+              href="https://ziberpax.github.io/codejam-eldritch/codejam-eldritch/"
+              class="projects_elem__link"
+              target="_blank"
+            >
+              <div class="projects_elem__title-container">
+                <p class="projects_elem__title">Codejam Eldritch</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects_elem">
+            <a
+              href="https://rolling-scopes-school.github.io/ziberpax-JSFE2022Q3/online-zoo/pages/main/"
+              class="projects_elem__link"
+              target="_blank"
+            >
+              <div class="projects_elem__title-container">
+                <p class="projects_elem__title">Online Zoo</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects_elem">
+            <a
+              href="https://rolling-scopes-school.github.io/ziberpax-JSFE2022Q3/codejam/"
+              class="projects_elem__link"
+              target="_blank"
+            >
+              <div class="projects_elem__title-container">
+                <p class="projects_elem__title">Codejam-Q3-2022</p>
+              </div>
+            </a>
+          </li>
+          <li class="projects_elem">
+            <a
+              href="https://rolling-scopes-school.github.io/ziberpax-JSFE2022Q3/songbird/main.html"
+              class="projects_elem__link"
+              target="_blank"
+            >
+              <div class="projects_elem__title-container">
+                <p class="projects_elem__title">SongBird</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <footer class="footer">
+        <nav class="footer-nav_container">
+          <ul class="contacts_ul">
+            <li class="contacts_elem">
+              <a
+                href="https://discordapp.com/users/AlexeyM#7429/"
+                class="contacts_elem__link"
+                target="_blank"
+              >
+                <div class="contacts_elem_image-container">
+                  <img
+                    src="../icons/discord_icon_130958.svg"
+                    alt="discord logo"
+                    class="contacts_elem_image"
+                  />
+                </div>
+                <div class="contacts_elem__title-container">
+                  <p class="contacts_elem__title">AlexeyM#7429</p>
+                </div>
+              </a>
+            </li>
+            <li class="contacts_elem">
+              <a href="mailto:323p@mail.ru" class="contacts_elem__link">
+                <div class="contacts_elem_image-container">
+                  <img
+                    src="../icons/medical-25_icon-icons.com_73900.svg"
+                    alt="mail logo"
+                    class="contacts_elem_image"
+                  />
+                </div>
+                <div class="contacts_elem__title-container">
+                  <p class="contacts_elem__title">323p@mail.ru</p>
+                </div>
+              </a>
+            </li>
+            <li class="contacts_elem">
+              <a href="tel:+79954096925" class="contacts_elem__link">
+                <div class="contacts_elem_image-container">
+                  <img
+                    src="../icons/iphonesmartphonephonemobile-116039_115997.svg"
+                    alt="phone logo"
+                    class="contacts_elem_image"
+                  />
+                </div>
+                <div class="contacts_elem__title-container">
+                  <p class="contacts_elem__title">+79954096925</p>
+                </div>
+              </a>
+            </li>
+            <li class="contacts_elem">
+              <a href="https://github.com/ZiberPax" class="contacts_elem__link">
+                <div class="contacts_elem_image-container">
+                  <img
+                    src="../icons/github_git_icon_145985.svg"
+                    alt="phone logo"
+                    class="contacts_elem_image"
+                  />
+                </div>
+                <div class="contacts_elem__title-container">
+                  <p class="contacts_elem__title">Github</p>
+                </div>
+              </a>
+            </li>
+            <li class="contacts_elem">
+              <a href="#" class="contacts_elem__link">
+                <div class="contacts_elem__title-container">
+                  <p class="contacts_elem__title">2022</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+          
+        </nav>
+
+      </footer>
+    </main>
+  </body>
+</html>
