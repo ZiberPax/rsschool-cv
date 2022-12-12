@@ -1,6 +1,5 @@
 body {
   font-family: 'Patua One', cursive;
-
   transition: 0.3s
 }
 
@@ -307,6 +306,9 @@ body {
 .header_nav__li__link:hover {
   color: var(--bittersweet-shimmer) !important;
 }
+.contacts_elem__title__img {
+  height: 30px;
+}
 
 /* FOOTER END */
 
@@ -363,7 +365,8 @@ body {
   } */
 
   .contacts_ul {
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
   }
 
   .footer {

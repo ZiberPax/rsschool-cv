@@ -23,16 +23,16 @@
     <header class="header">
       <ul class="header_nav">
         <li class="header_nav__li">
-          <a href="#" class="header_nav__li__link">Profile</a>
+          <a href="#education" class="header_nav__li__link">Education</a>
         </li>
         <li class="header_nav__li">
-          <a href="#" class="header_nav__li__link">Experience</a>
+          <a href="#skills" class="header_nav__li__link">Skills</a>
         </li>
         <li class="header_nav__li">
-          <a href="#" class="header_nav__li__link">Code example</a>
+          <a href="#code-example" class="header_nav__li__link">Projects</a>
         </li>
         <li class="header_nav__li">
-          <a href="#" class="header_nav__li__link">My projects</a>
+          <a href="#footer" class="header_nav__li__link">Contacts</a>
         </li>
       </ul>
     </header>
@@ -65,7 +65,7 @@
         </div>
       </div>
 
-      <div class="education_container">
+      <div class="education_container" id="education">
         <div class="education__title">Education</div>
         <div class="education__elem">
           <div class="education__elem__time-title">2017 - 2022</div>
@@ -89,9 +89,16 @@
             RS School JS / FRONT-END 2022Q3 (in progress)
           </div>
         </div>
+        <div class="education__title">Language</div>
+                <div class="education__elem">
+          <div class="education__elem__time-title">Endlish <span style="color:var(--hunter-green);">B2</span></div>
+        </div>
+        <div class="education__elem">
+          <div class="education__elem__time-title">Russian <span style="color:var(--hunter-green);">C2</span></div>
+        </div>
       </div>
 
-      <div class="skills_container">
+      <div class="skills_container" id="skills">
         <h2 class="skills_title">Skills</h2>
         <ul class="skills_ul">
           <li class="skills_elem">
@@ -124,7 +131,11 @@
             </a>
           </li>
           <li class="skills_elem">
-            <a href="https://www.blackmagicdesign.com/products/davinciresolve" class="skills_elem__link" target="_blank">
+            <a
+              href="https://www.blackmagicdesign.com/products/davinciresolve"
+              class="skills_elem__link"
+              target="_blank"
+            >
               <div class="skills_elem__title-container">
                 <p class="skills_elem__title">DaVinci Resolve</p>
               </div>
@@ -161,7 +172,7 @@
           def solution(number):
                 k = 0 
                 sum = 0 
-                while k < number: 
+                while k &lt; number: 
                   if k % 5 and  k % 3 == 0: 
                       sum  += k
                     elif k % 5 == 0: 
@@ -174,7 +185,7 @@
         </pre>
       </div>
 
-      <div class="projects_container">
+      <div class="projects_container" id="projects">
         <h2 class="projects_title">My Projects</h2>
         <ul class="projects_ul">
           <li class="projects_elem">
@@ -246,7 +257,7 @@
         </ul>
       </div>
 
-      <footer class="footer">
+      <footer class="footer" id="footer">
         <nav class="footer-nav_container">
           <ul class="contacts_ul">
             <li class="contacts_elem">
@@ -316,10 +327,15 @@
                 </div>
               </a>
             </li>
+            <li class="contacts_elem">
+              <a href="https://rs.school/js/" class="contacts_elem__link">
+                <div class="contacts_elem__title-container">
+                  <img src="../cv/icons/rs_school_js (1).svg" alt="RSS School logo" class="contacts_elem__title__img">
+                </div>
+              </a>
+            </li>
           </ul>
-          
         </nav>
-
       </footer>
     </main>
   </body>
