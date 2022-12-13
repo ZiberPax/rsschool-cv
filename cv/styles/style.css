@@ -197,7 +197,19 @@ body {
 .projects_elem__title { 
   font-size: 1.5rem;
   color: var(--hunter-green);
+  transition: 0.3s;
 }
+
+.skills_elem__title:hover,
+.projects_elem__title:hover { 
+  color: var(--android-green);
+}
+
+.contacts_elem__title:hover {
+  color:var(--bittersweet-shimmer);
+}
+
+
 
 .education__elem {
   width: 50%;
